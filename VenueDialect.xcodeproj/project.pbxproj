@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCF44221E544C28009E54D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF44211E544C28009E54D0 /* AppDelegate.swift */; };
+		CBCF44241E544C28009E54D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF44231E544C28009E54D0 /* ViewController.swift */; };
+		CBCF44271E544C29009E54D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF44251E544C29009E54D0 /* Main.storyboard */; };
+		CBCF44291E544C29009E54D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF44281E544C29009E54D0 /* Assets.xcassets */; };
+		CBCF442C1E544C29009E54D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF442A1E544C29009E54D0 /* LaunchScreen.storyboard */; };
+		CBCF44371E544C29009E54D0 /* VenueDialectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF44361E544C29009E54D0 /* VenueDialectTests.swift */; };
+		CBCF44421E544C29009E54D0 /* VenueDialectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF44411E544C29009E54D0 /* VenueDialectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCF44331E544C29009E54D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF44161E544C28009E54D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF441D1E544C28009E54D0;
+			remoteInfo = VenueDialect;
+		};
+		CBCF443E1E544C29009E54D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF44161E544C28009E54D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF441D1E544C28009E54D0;
+			remoteInfo = VenueDialect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCF441E1E544C28009E54D0 /* VenueDialect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueDialect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF44211E544C28009E54D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBCF44231E544C28009E54D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBCF44261E544C29009E54D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCF44281E544C29009E54D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCF442B1E544C29009E54D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBCF442D1E544C29009E54D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF44321E544C29009E54D0 /* VenueDialectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenueDialectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF44361E544C29009E54D0 /* VenueDialectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDialectTests.swift; sourceTree = "<group>"; };
+		CBCF44381E544C29009E54D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF443D1E544C29009E54D0 /* VenueDialectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenueDialectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF44411E544C29009E54D0 /* VenueDialectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDialectUITests.swift; sourceTree = "<group>"; };
+		CBCF44431E544C29009E54D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCF441B1E544C28009E54D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF442F1E544C29009E54D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF443A1E544C29009E54D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCF44151E544C28009E54D0 = {
+			isa = PBXGroup;
+			children = (
+				CBCF44201E544C28009E54D0 /* VenueDialect */,
+				CBCF44351E544C29009E54D0 /* VenueDialectTests */,
+				CBCF44401E544C29009E54D0 /* VenueDialectUITests */,
+				CBCF441F1E544C28009E54D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCF441F1E544C28009E54D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF441E1E544C28009E54D0 /* VenueDialect.app */,
+				CBCF44321E544C29009E54D0 /* VenueDialectTests.xctest */,
+				CBCF443D1E544C29009E54D0 /* VenueDialectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCF44201E544C28009E54D0 /* VenueDialect */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF44211E544C28009E54D0 /* AppDelegate.swift */,
+				CBCF44231E544C28009E54D0 /* ViewController.swift */,
+				CBCF44251E544C29009E54D0 /* Main.storyboard */,
+				CBCF44281E544C29009E54D0 /* Assets.xcassets */,
+				CBCF442A1E544C29009E54D0 /* LaunchScreen.storyboard */,
+				CBCF442D1E544C29009E54D0 /* Info.plist */,
+			);
+			path = VenueDialect;
+			sourceTree = "<group>";
+		};
+		CBCF44351E544C29009E54D0 /* VenueDialectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF44361E544C29009E54D0 /* VenueDialectTests.swift */,
+				CBCF44381E544C29009E54D0 /* Info.plist */,
+			);
+			path = VenueDialectTests;
+			sourceTree = "<group>";
+		};
+		CBCF44401E544C29009E54D0 /* VenueDialectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF44411E544C29009E54D0 /* VenueDialectUITests.swift */,
+				CBCF44431E544C29009E54D0 /* Info.plist */,
+			);
+			path = VenueDialectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCF441D1E544C28009E54D0 /* VenueDialect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF44461E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialect" */;
+			buildPhases = (
+				CBCF441A1E544C28009E54D0 /* Sources */,
+				CBCF441B1E544C28009E54D0 /* Frameworks */,
+				CBCF441C1E544C28009E54D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenueDialect;
+			productName = VenueDialect;
+			productReference = CBCF441E1E544C28009E54D0 /* VenueDialect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCF44311E544C29009E54D0 /* VenueDialectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF44491E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialectTests" */;
+			buildPhases = (
+				CBCF442E1E544C29009E54D0 /* Sources */,
+				CBCF442F1E544C29009E54D0 /* Frameworks */,
+				CBCF44301E544C29009E54D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF44341E544C29009E54D0 /* PBXTargetDependency */,
+			);
+			name = VenueDialectTests;
+			productName = VenueDialectTests;
+			productReference = CBCF44321E544C29009E54D0 /* VenueDialectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBCF443C1E544C29009E54D0 /* VenueDialectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF444C1E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialectUITests" */;
+			buildPhases = (
+				CBCF44391E544C29009E54D0 /* Sources */,
+				CBCF443A1E544C29009E54D0 /* Frameworks */,
+				CBCF443B1E544C29009E54D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF443F1E544C29009E54D0 /* PBXTargetDependency */,
+			);
+			name = VenueDialectUITests;
+			productName = VenueDialectUITests;
+			productReference = CBCF443D1E544C29009E54D0 /* VenueDialectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCF44161E544C28009E54D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luv Letter";
+				TargetAttributes = {
+					CBCF441D1E544C28009E54D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82TX43SYBY;
+						ProvisioningStyle = Automatic;
+					};
+					CBCF44311E544C29009E54D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82TX43SYBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCF441D1E544C28009E54D0;
+					};
+					CBCF443C1E544C29009E54D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82TX43SYBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCF441D1E544C28009E54D0;
+					};
+				};
+			};
+			buildConfigurationList = CBCF44191E544C28009E54D0 /* Build configuration list for PBXProject "VenueDialect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCF44151E544C28009E54D0;
+			productRefGroup = CBCF441F1E544C28009E54D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCF441D1E544C28009E54D0 /* VenueDialect */,
+				CBCF44311E544C29009E54D0 /* VenueDialectTests */,
+				CBCF443C1E544C29009E54D0 /* VenueDialectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCF441C1E544C28009E54D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF442C1E544C29009E54D0 /* LaunchScreen.storyboard in Resources */,
+				CBCF44291E544C29009E54D0 /* Assets.xcassets in Resources */,
+				CBCF44271E544C29009E54D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF44301E544C29009E54D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF443B1E544C29009E54D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCF441A1E544C28009E54D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF44241E544C28009E54D0 /* ViewController.swift in Sources */,
+				CBCF44221E544C28009E54D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF442E1E544C29009E54D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF44371E544C29009E54D0 /* VenueDialectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF44391E544C29009E54D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF44421E544C29009E54D0 /* VenueDialectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCF44341E544C29009E54D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF441D1E544C28009E54D0 /* VenueDialect */;
+			targetProxy = CBCF44331E544C29009E54D0 /* PBXContainerItemProxy */;
+		};
+		CBCF443F1E544C29009E54D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF441D1E544C28009E54D0 /* VenueDialect */;
+			targetProxy = CBCF443E1E544C29009E54D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCF44251E544C29009E54D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCF44261E544C29009E54D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCF442A1E544C29009E54D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCF442B1E544C29009E54D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCF44441E544C29009E54D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCF44451E544C29009E54D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCF44471E544C29009E54D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBCF44481E544C29009E54D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CBCF444A1E544C29009E54D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueDialect.app/VenueDialect";
+			};
+			name = Debug;
+		};
+		CBCF444B1E544C29009E54D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueDialect.app/VenueDialect";
+			};
+			name = Release;
+		};
+		CBCF444D1E544C29009E54D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VenueDialect;
+			};
+			name = Debug;
+		};
+		CBCF444E1E544C29009E54D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82TX43SYBY;
+				INFOPLIST_FILE = VenueDialectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.luvletter.VenueDialectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VenueDialect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCF44191E544C28009E54D0 /* Build configuration list for PBXProject "VenueDialect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF44441E544C29009E54D0 /* Debug */,
+				CBCF44451E544C29009E54D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCF44461E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF44471E544C29009E54D0 /* Debug */,
+				CBCF44481E544C29009E54D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCF44491E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF444A1E544C29009E54D0 /* Debug */,
+				CBCF444B1E544C29009E54D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBCF444C1E544C29009E54D0 /* Build configuration list for PBXNativeTarget "VenueDialectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF444D1E544C29009E54D0 /* Debug */,
+				CBCF444E1E544C29009E54D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCF44161E544C28009E54D0 /* Project object */;
+}
